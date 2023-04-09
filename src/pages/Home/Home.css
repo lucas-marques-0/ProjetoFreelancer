@@ -1,0 +1,333 @@
+.cabecalho{
+    background-color: rgb(251, 243, 233);
+    border: 5px, solid, rgb(148, 191, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    width: 300px;
+}
+
+.content1{
+    background-color: rgb(148, 191, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.content1 p{
+    color: rgb(251, 243, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.gridInfos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cardInfo{
+    background-color: rgb(251, 243, 233);
+    border-radius: 17px;
+    width: 320px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cardInfo p{
+    margin-bottom: 0px !important;
+    margin-top: 25px !important;
+    color: rgb(122, 131, 130) !important;
+    font-size: 15px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.icon{
+    color: rgb(251, 243, 233);
+    font-size: 45px;
+    margin-bottom: -5px;
+}
+
+.cardInfo span{
+    padding: 17px;
+    background-color: rgb(148, 191, 185);
+    border-radius: 50px;
+}
+
+.content2{
+    background-color: rgb(148, 191, 185);
+    padding-top: 85px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.c2Textos{
+    max-width: 30%;
+    padding-right: 0px;
+}
+
+.c2Textos p{
+    color: rgb(251, 243, 233);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+#c2txt2{
+    font-size: 22px;
+}
+
+
+#c2list{
+    color: rgb(251, 243, 233);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 55px;
+}
+
+iframe{
+    border-radius: 7px;
+}
+
+.c2Btn{
+    background-color: rgb(148, 191, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.btn{
+    color: rgb(251, 243, 233);
+    background-color: rgb(241, 119, 125);
+    border-radius: 50px;
+    width: 380px;
+    height: 60px;
+    border: none;
+    font-size: 23px;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content3{
+    background-color: rgb(251, 243, 233);
+    padding-top: 40px;
+    /* padding-bottom: 75px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3txt1{
+    color: rgb(92, 107, 107);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 55px;
+}
+
+.icon2{
+    color: rgb(148, 191, 185);
+    font-size: 50px;
+}
+
+.c3Grid{
+    width: 50%;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 70px;
+}
+
+.gridComponent{
+    display: flex;
+    flex-direction: row;
+}
+
+.pt1{
+    padding-right: 25px;
+}
+
+.pt2t1{
+    color: rgb(148, 191, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.pt2t2{
+    color: rgb(92, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.c3cont{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.c3contTxt1{
+    color: rgb(148, 191, 185);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+
+.c3contTxt2{    
+    color: rgb(126, 136, 144);
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.c3contGrid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+}
+
+.c3GridComp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon3{
+    color: rgb(148, 191, 185);
+    font-size: 6rem;
+    padding-bottom: 30px;
+}
+
+.pt3t1{
+    color: rgb(79, 92, 113);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.pt3t2{
+    color: rgb(126, 136, 144);
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.content4{
+    width: 100%;
+    background-color: rgb(148, 191, 185);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c4component{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c4component p, .c4component h3, .c4component h5{
+    color: rgb(251, 243, 233);
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.c4component p, .c4component h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.c4component p{
+    font-weight: 600;
+}
+
+.c4component h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.c4component h5{
+    padding-top: 13px;
+    font-size: 20px;
+}
+
+.c4txts{
+    padding-left: 50px;
+}
+
+.c4img{
+    width: 380px;
+    border-radius: 12px;
+}
+
+.c4Btn{
+    background-color: rgb(251, 243, 233);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background-color: rgb(251, 243, 233);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.infosFinais{
+    color: rgb(148, 191, 185);
+    font-size: 13.5px;
+    width: 100%;
+    background-color: rgb(251, 243, 233);
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fInfos{
+    display: flex;
+    gap: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 191, 185);
+    font-size: 15px;
+}
