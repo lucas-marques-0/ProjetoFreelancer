@@ -1,4 +1,4 @@
-.cabecalho{
+.cabecalho {
     background-color: rgb(251, 243, 233);
     border: 5px, solid, rgb(148, 191, 185);
     display: flex;
@@ -6,11 +6,11 @@
     align-items: center;
 }
 
-.logoImg{
+.logoImg {
     width: 300px;
 }
 
-.content1{
+.content1 {
     background-color: rgb(148, 191, 185);
     display: flex;
     flex-direction: column;
@@ -19,23 +19,25 @@
     padding: 25px;
 }
 
-.content1 p{
+.content1 p {
     color: rgb(251, 243, 233);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     margin-bottom: 40px;
 }
 
-.gridInfos{
+.gridInfos {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
+    width: 100%;
 }
 
-.cardInfo{
+.cardInfo {
     background-color: rgb(251, 243, 233);
     border-radius: 17px;
-    width: 320px;
+    width: 18%;
     height: 230px;
     display: flex;
     flex-direction: column;
@@ -44,27 +46,28 @@
     box-sizing: border-box;
 }
 
-.cardInfo p{
+.cardInfo p {
     margin-bottom: 0px !important;
     margin-top: 25px !important;
     color: rgb(122, 131, 130) !important;
     font-size: 15px !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
+    text-align: center;
 }
 
-.icon{
+.icon {
     color: rgb(251, 243, 233);
     font-size: 45px;
     margin-bottom: -5px;
 }
 
-.cardInfo span{
+.cardInfo span {
     padding: 17px;
     background-color: rgb(148, 191, 185);
     border-radius: 50px;
 }
 
-.content2{
+.content2 {
     background-color: rgb(148, 191, 185);
     padding-top: 85px;
     padding-bottom: 75px;
@@ -75,35 +78,37 @@
     gap: 70px;
 }
 
-.c2Textos{
+.c2Textos {
     max-width: 30%;
     padding-right: 0px;
 }
 
-.c2Textos p{
+.c2Textos p {
     color: rgb(251, 243, 233);
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 25px;
 }
 
-#c2txt2{
+#c2txt2 {
     font-size: 22px;
 }
 
 
-#c2list{
+#c2list {
     color: rgb(251, 243, 233);
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 55px;
 }
 
-iframe{
+iframe {
     border-radius: 7px;
+    width: 640px;
+    height: 365px;
 }
 
-.c2Btn{
+.c2Btn {
     background-color: rgb(148, 191, 185);
     display: flex;
     justify-content: center;
@@ -111,7 +116,7 @@ iframe{
     padding-bottom: 40px;
 }
 
-.btn{
+.btn {
     color: rgb(251, 243, 233);
     background-color: rgb(241, 119, 125);
     border-radius: 50px;
@@ -123,7 +128,7 @@ iframe{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content3{
+.content3 {
     background-color: rgb(251, 243, 233);
     padding-top: 40px;
     /* padding-bottom: 75px; */
@@ -131,9 +136,10 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.c3txt1{
+.c3txt1 {
     color: rgb(92, 107, 107);
     font-size: 2rem;
     font-weight: bold;
@@ -141,28 +147,28 @@ iframe{
     padding-bottom: 55px;
 }
 
-.icon2{
+.icon2 {
     color: rgb(148, 191, 185);
     font-size: 50px;
 }
 
-.c3Grid{
+.c3Grid {
     width: 50%;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     gap: 70px;
 }
 
-.gridComponent{
+.gridComponent {
     display: flex;
     flex-direction: row;
 }
 
-.pt1{
+.pt1 {
     padding-right: 25px;
 }
 
-.pt2t1{
+.pt2t1 {
     color: rgb(148, 191, 185);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -170,22 +176,23 @@ iframe{
     font-weight: 600;
 }
 
-.pt2t2{
+.pt2t2 {
     color: rgb(92, 107, 107);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
-.c3cont{
+.c3cont {
     padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-bottom: 50px;
+    text-align: center;
 }
 
-.c3contTxt1{
+.c3contTxt1 {
     color: rgb(148, 191, 185);
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -193,33 +200,33 @@ iframe{
     font-weight: bold;
 }
 
-.c3contTxt2{    
+.c3contTxt2 {
     color: rgb(126, 136, 144);
     font-size: 20px;
     padding-bottom: 60px;
 }
 
-.c3contGrid{
+.c3contGrid {
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 65px;
 }
 
-.c3GridComp{
+.c3GridComp {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.icon3{
+.icon3 {
     color: rgb(148, 191, 185);
     font-size: 6rem;
     padding-bottom: 30px;
 }
 
-.pt3t1{
+.pt3t1 {
     color: rgb(79, 92, 113);
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -227,14 +234,14 @@ iframe{
     font-weight: bold;
 }
 
-.pt3t2{
+.pt3t2 {
     color: rgb(126, 136, 144);
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-.content4{
+.content4 {
     width: 100%;
     background-color: rgb(148, 191, 185);
     padding-top: 50px;
@@ -244,48 +251,51 @@ iframe{
     align-items: center;
 }
 
-.c4component{
+.c4component {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.c4component p, .c4component h3, .c4component h5{
+.c4component p,
+.c4component h3,
+.c4component h5 {
     color: rgb(251, 243, 233);
     font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.c4component p, .c4component h5{
+.c4component p,
+.c4component h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.c4component p{
+.c4component p {
     font-weight: 600;
 }
 
-.c4component h3{
+.c4component h3 {
     font-size: 35px;
     padding-bottom: 20px;
 }
 
-.c4component h5{
+.c4component h5 {
     padding-top: 13px;
     font-size: 20px;
 }
 
-.c4txts{
+.c4txts {
     padding-left: 50px;
 }
 
-.c4img{
+.c4img {
     width: 380px;
     border-radius: 12px;
 }
 
-.c4Btn{
+.c4Btn {
     background-color: rgb(251, 243, 233);
     width: 100%;
     display: flex;
@@ -295,7 +305,7 @@ iframe{
     padding-bottom: 30px;
 }
 
-.footer{
+.footer {
     background-color: rgb(251, 243, 233);
     width: 100%;
     display: flex;
@@ -303,14 +313,14 @@ iframe{
     align-items: center;
 }
 
-.footerContent{
+.footerContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
 }
 
-.infosFinais{
+.infosFinais {
     color: rgb(148, 191, 185);
     font-size: 13.5px;
     width: 100%;
@@ -322,12 +332,89 @@ iframe{
     align-items: center;
     margin-top: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-.fInfos{
+.fInfos {
     display: flex;
     gap: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(148, 191, 185);
     font-size: 15px;
+}
+
+@media screen and (max-width: 1050px) {
+    .cardInfo {
+        width: 27%;
+    }
+
+    .cardInfo p {
+        font-size: 13px;
+    }
+
+    iframe {
+        border-radius: 7px;
+        width: 350px;
+        height: 225px;
+    }
+
+    .c4img {
+        width: 270px;
+    }
+
+    .c4component {
+        width: 90%;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .cardInfo {
+        width: 45%;
+    }
+
+    .gridInfos {
+        gap: 15px;
+    }
+
+    .content2 {
+        flex-direction: column;
+    }
+
+    .c2Textos {
+        max-width: 80%;
+    }
+
+    .content2 {
+        gap: 30px !important;
+    }
+
+    .c3Grid {
+        margin-left: -170px;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .c3contTxt2 {
+        width: 90%;
+    }
+
+    .c3contGrid {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .c4component {
+        flex-direction: column;
+    }
+
+    .c4component img{
+        width: 80%;
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
 }

@@ -44,7 +44,7 @@ function Home() {
           </div>
         </div>
         <div className="c2Video">
-          <iframe width="640" height="365" src="https://www.youtube.com/embed/Ctun6bn8wac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <iframe src="https://www.youtube.com/embed/Ctun6bn8wac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
       </div>
       <div className="c2Btn">
